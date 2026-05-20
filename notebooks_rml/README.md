@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="cool_banner.png" width="100%" alt="ElementalTask-RML banner">
+</p>
+
 # ElementalTask-RML
 
 observe → interpret → monitor → forecast → compare
@@ -20,11 +24,11 @@ Emergence ≠ magic. Monitor constraints. 📐
 
 | Notebook | Focus |
 |---|---|
-| 01 | emergence-order monitoring |
-| 02 | function-vector drift monitoring |
-| 03 | ahead/behind schedule constraint detection |
-| 04 | early emergence forecasting |
-| 05 | cross-model stability + transfer |
+| 01 | [emergence-order monitoring](./01_emergence_order_monitor.ipynb) |
+| 02 | [function-vector drift monitoring](./02_function_vector_geometry.ipynb) |
+| 03 | [ahead/behind schedule constraint detection](./03_constraint_drift_detection.ipynb) |
+| 04 | [early emergence forecasting](./04_emergence_forecasting.ipynb) |
+| 05 | [cross-model stability + transfer](./05_cross_model_stability.ipynb) |
 
 ---
 
@@ -55,3 +59,32 @@ notebooks_rml/
 ├── figures/
 ├── results/
 └── README.md
+```
+
+---
+
+## Related Work
+
+- [Residue Manifold Learning (RML)](https://github.com/thinkthoughts/residue-manifold-learning)
+
+---
+
+## Roadmap
+
+Next steps:
+
+- real upstream FV extraction integration,
+- checkpoint trajectory adapters,
+- forecast confidence calibration,
+- mod30/RML geometry experiments,
+- multi-model emergence comparison benchmarks,
+- lightweight paper/report generation pipeline.
+
+---
+
+Built on top of:
+
+- ElementalTask
+- function-vector analysis
+- emergence trajectory monitoring
+- RML / CGCS constraint geometry
