@@ -9,3 +9,8 @@ Goals:
 - flag capability emergence ahead/behind expected order.
 
 Emergence ≠ magic. Monitor constraints. 📐
+
+| Notebook | Focus |
+|---|---|
+| 01 | emergence-order monitoring |
+| 02 | function-vector drift monitoring |
