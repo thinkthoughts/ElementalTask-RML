@@ -1,4 +1,4 @@
-This fork: all RML (Residue Manifold Learning) work in notebooks_rml
+This fork <a href="notebooks_rml/paper.pdf">paper</a>: all RML (Residue Manifold Learning) work in notebooks_rml
 
 ## Project Structure
 
