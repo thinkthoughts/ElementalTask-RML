@@ -1,0 +1,11 @@
+cutoff_checkpoint,composite,components_seen,composite_seen,forecast_available,window_prediction,observed_checkpoint,window_signed_error
+5000,compositional:copy_then_uppercase,True,False,True,9900.0,100000,-90100.0
+5000,compositional:first_letter_then_uppercase,False,False,False,,100000,
+10000,compositional:copy_then_uppercase,True,False,True,9900.0,100000,-90100.0
+10000,compositional:first_letter_then_uppercase,False,False,False,,100000,
+20000,compositional:copy_then_uppercase,True,False,True,9900.0,100000,-90100.0
+20000,compositional:first_letter_then_uppercase,True,False,True,24900.0,100000,-75100.0
+50000,compositional:copy_then_uppercase,True,False,True,9900.0,100000,-90100.0
+50000,compositional:first_letter_then_uppercase,True,False,True,24900.0,100000,-75100.0
+100000,compositional:copy_then_uppercase,True,True,True,9900.0,100000,-90100.0
+100000,compositional:first_letter_then_uppercase,True,True,True,24900.0,100000,-75100.0
