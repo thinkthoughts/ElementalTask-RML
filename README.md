@@ -1,4 +1,4 @@
-This fork <a href="notebooks_rml/paper.pdf">paper</a>: all RML (Residue Manifold Learning) work in notebooks_rml
+This fork: all RML work (Residue Manifold Learning) is found in notebooks_rml; including this <a href="notebooks_rml/paper.pdf">paper</a>.
 
 ## Project Structure
 
