@@ -1,0 +1,26 @@
+{
+  "n_checkpoints": 6,
+  "n_pairwise_constraints": 4,
+  "monitor_flag_counts": {
+    "recovering": 2,
+    "high_fv_drift;fv_geometry_unstable": 2,
+    "high_fv_drift;fv_geometry_unstable;fv_constraint_violation": 1,
+    "stable": 1
+  },
+  "schedule_flag_counts": {
+    "behind_schedule": 4
+  },
+  "thresholds": {
+    "rank_stability_low": 0.5,
+    "rank_stability_stable": 0.9,
+    "cgcs_low": 0.7,
+    "cgcs_stable": 0.9,
+    "fv_drift_high": 0.3,
+    "fv_drift_stable": 0.15,
+    "fv_rank_low": 0.2,
+    "fv_rank_stable": 0.7,
+    "cgcs_fv_low": 0.5,
+    "cgcs_fv_stable": 0.75
+  },
+  "behind_threshold": 49500.0
+}

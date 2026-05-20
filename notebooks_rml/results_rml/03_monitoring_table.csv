@@ -1,0 +1,7 @@
+checkpoint_order,rank_stability,fv_drift,fv_rank_stability,cgcs_fv,cgcs,monitor_flag
+1000,0.58,0.165,0.77,0.75,1.0,recovering
+5000,0.93,0.365,-0.31,0.5,1.0,high_fv_drift;fv_geometry_unstable
+10000,0.93,0.343,-0.49,0.5,1.0,high_fv_drift;fv_geometry_unstable
+20000,0.99,0.303,0.14,0.0,1.0,high_fv_drift;fv_geometry_unstable;fv_constraint_violation
+50000,0.99,0.263,0.42,0.5,1.0,recovering
+100000,1.0,0.0,1.0,1.0,1.0,stable

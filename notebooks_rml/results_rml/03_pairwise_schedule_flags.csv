@@ -1,0 +1,5 @@
+component_task,composite_task,component_checkpoint,composite_checkpoint,valid_order,delta,schedule_flag
+simple:copying,compositional:copy_then_uppercase,5000,100000,True,95000,behind_schedule
+simple:uppercase,compositional:copy_then_uppercase,10000,100000,True,90000,behind_schedule
+simple:first_letter,compositional:first_letter_then_uppercase,20000,100000,True,80000,behind_schedule
+simple:uppercase,compositional:first_letter_then_uppercase,10000,100000,True,90000,behind_schedule
