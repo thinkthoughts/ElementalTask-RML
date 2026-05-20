@@ -25,3 +25,12 @@ Pipeline:
 `checkpoint → function-vector geometry → similarity drift → constraint score`
 
 Emergence ≠ magic. Monitor constraints. 📐
+
+### Function-Vector Observation
+
+Compositional tasks increasingly align with the geometry of their component tasks across checkpoints.
+
+Function-vector drift decreases over training,
+while rank stability and constraint scores increase.
+
+This suggests that capability emergence may be monitored geometrically before training completion.
