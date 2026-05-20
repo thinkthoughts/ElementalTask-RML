@@ -1,0 +1,7 @@
+prerequisite_task,target_task,constraint,prereq_order,target_order,valid,violation
+simple:copying,compositional:copy_then_uppercase,atomic_before_compositional,6000.0,100000.0,True,False
+simple:copying,compositional:first_letter_then_uppercase,atomic_before_compositional,6000.0,100000.0,True,False
+simple:uppercase,compositional:copy_then_uppercase,atomic_before_compositional,10000.0,100000.0,True,False
+simple:uppercase,compositional:first_letter_then_uppercase,atomic_before_compositional,10000.0,100000.0,True,False
+simple:first_letter,compositional:copy_then_uppercase,atomic_before_compositional,20000.0,100000.0,True,False
+simple:first_letter,compositional:first_letter_then_uppercase,atomic_before_compositional,20000.0,100000.0,True,False

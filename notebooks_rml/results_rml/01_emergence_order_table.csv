@@ -1,0 +1,7 @@
+task,emerged,emergence_checkpoint,emergence_order,emergence_score,max_score,emergence_rank,task_group
+simple:copying,True,step6000,6000.0,0.803565653027917,1.0,1,atomic
+simple:uppercase,True,step10000,10000.0,0.80807879029489,1.0,2,atomic
+simple:first_letter,True,step20000,20000.0,0.8080456217204456,0.9705524473658902,3,atomic
+math:arithmetic,True,step50000,50000.0,0.7959306826690583,0.9369323622314993,4,math
+compositional:copy_then_uppercase,True,step100000,100000.0,0.7988591409648335,0.7988591409648335,5,compositional
+compositional:first_letter_then_uppercase,True,step100000,100000.0,0.5190103993906818,0.5190103993906818,5,compositional
