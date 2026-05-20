@@ -1,3 +1,5 @@
+observe → interpret → monitor → forecast → compare
+
 ## ElementalTask-RML
 
 This fork extends ElementalTask with Residue Manifold Learning (RML) and CGCS-inspired emergence monitoring.
